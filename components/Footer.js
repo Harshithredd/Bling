@@ -84,7 +84,7 @@ const Footer = () => {
       </div>
     </div>
   </div>
-  <div className="bg-gray-100">
+  <div className="bg-gradient-to-r bg-gradient-to-r from-yellow-600  via-yellow-500  to-yellow-300">
     <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
       <p className="text-gray-500 text-sm text-center sm:text-left">© 2023 HGR —
         <a href="https://twitter.com/Harsheeeh" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@Harsheeeh</a>
