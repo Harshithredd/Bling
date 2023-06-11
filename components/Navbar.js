@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { IoCartOutline } from "react-icons/io5";
+import { AiFillCloseSquare } from 'react-icond/ai';
 
 
 const Navbar = () => {
@@ -27,8 +28,15 @@ const Navbar = () => {
                     <IoCartOutline className='pl-1 text-xl' />
                 </button>
             </div>
+            <div className='sidebar absolute top-0 right-0 bg-yellow-500'>
+                <ul>
+                    <li>
+
+                    </li>
+                </ul>
+            </div>
         </header>
     )
 }
 
-export default Navbar
+export default Navbar;
