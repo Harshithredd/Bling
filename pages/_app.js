@@ -1,8 +1,11 @@
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
-import '../styles/globals.css'
+import { useState } from 'react';
+import Footer from '../components/Footer';
+import '../styles/globals.css';
+import Navbar from '../components/Navbar';
 
 function MyApp({ Component, pageProps }) {
+  const [cart,setCart] = useState();
+
   return(
     <>
        <Navbar/>
